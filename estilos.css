@@ -1,0 +1,461 @@
+header{
+  background-color:#f45048;
+  min-height:100px;
+  text-align:center;
+  line-height:100px;
+}
+
+body{
+  margin:0;
+  background-color:black;
+  color: black;
+  min-height: 10px;
+  height:10vh;
+  background: radial-gradient(circle, #f9dfdf, #f9dfdf, #f6ecec,#f6ecec);
+}
+
+main{
+  margin:10px 50px 10px ;
+  text-align: right;
+  padding: 10px;
+}
+
+h1{
+  font-size: 36px;
+  margin:0;
+  text-align:center;
+  padding:10px;
+}
+
+h2, h3{
+  margin:70;
+  text-align: center;
+}
+
+fieldset{
+  position: relative;
+  left:450px;
+  top:20px;
+  width:350px;
+  border: 5px solid black;
+  border-radius: 35px;
+  background-color:#ff7256;
+  color: black;
+   margin: 0px;
+}
+
+hr{ 
+  display: block;
+  margin-top: 4.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+td{
+  float: left;
+}
+
+p{
+  text-align:left;
+  font-size:20px;
+}
+
+img{
+  border: solid black 2px;
+  margin:10px 0px 0px 140px ;
+  width: 200px;
+  height:150px;
+  float: left;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;  
+}
+
+li{
+  float: left;
+  text-align: center;
+}
+
+li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.coloreado) {
+  background-color:#f0736d;
+}
+
+.coloreado {
+  background-color: #f45048;
+}
+
+.titulo{
+  font-size: 40px;
+  padding: 10px;
+}
+
+.tit{
+  background-color:red;
+  min-height:25px;
+  text-align:center;
+  line-height:25px;
+}
+
+.caja1{
+  margin:20px 50px 10px;
+  text-align: left;
+  float: left;
+}
+
+.caja3{
+  margin: 20px 0px 0px 300px;
+  text-align: right;
+}
+
+.titplatos{
+  position: relative;
+  top: 200; left: 180px;
+  margin:35px 0px 0px -40px ;
+  font-weight: bold;
+}
+
+.comentarios{
+  width: 200px;
+  color: black;
+}
+
+.mensajitos{
+  margin: 180px 215px 130px 235px;
+  text-align: left;
+}
+
+.inicio{ 
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: 200px;
+  color: black;
+}
+
+.btn1{
+  border-radius: 25px;
+  padding: 7px;
+}
+
+.inicioRegistro{
+  font-size: 26px;
+}
+
+.menuli{
+   margin: -10px -42px -10px 42px;
+   text-align: right;
+   font-size: 13px;
+}
+
+.sign{
+  margin: 0px -120px 0px 120px;
+  text-align: right;
+}
+
+.layer:after {
+  font: 50px/0.65 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+  content: 'Cocina Basica';
+  white-space: pre;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  color: whitesmoke;
+  letter-spacing: 15px;
+  text-shadow: 5px  10px rgba(0, 0, 0, 0.13);
+}
+
+.layer:last-child:after {
+  -webkit-text-stroke: 17px rgba(0, 0, 0, 0.1);
+}
+
+.layer:first-child:after {
+  color: #fff;
+  text-shadow: none;
+}
+
+#tituloAlimentos{
+  text-align:center;
+  padding:20px; 
+}
+
+#cuenta{
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+}
+
+#login{ 
+  text-align:center;
+}
+
+#cerrar{
+  margin:auto;
+  text-align:center;
+}
+
+@media only screen and (max-width: 1200px) {
+  li a {
+    padding: 18px 12px;
+  }
+  .menuli {
+    margin: -10px -42px -10px 42px; 
+  }
+  img{
+    margin:0px 0px 0px 90px ;
+    width: 200px;
+    height:150px;
+  }
+  .titplatos{
+    top: 200; left: 180px;
+    margin:15px 0px 0px -90px ;
+  }
+  fieldset{
+    left:350px;
+    top:20px;
+    width:350px;
+  }
+  .caja1{
+    margin:10px 50px 10px;
+  }
+  .caja3{
+    margin: 20px 0px 0px 300px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  li a {
+    padding: 15px 6px;
+  }
+  .menuli {
+    margin: -5px -42px -15px 42px;
+  }
+  img{
+    margin:0px 10px 0px 150px ;
+    width: 180px;
+    height:130px;
+  }
+  .titplatos{
+    top: 200; left: 180px;
+    margin:5px 0px 0px -30px ;
+  }
+  .mensajitos{
+    margin: 80px 215px 130px 150px;
+  }
+  fieldset{
+    left:250px;
+    top:20px;
+    width:350px;
+  }
+  .caja1{
+    margin:10px 50px 10px;
+  }
+  .caja3{
+    margin: 20px 0px 0px 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  li a {
+    padding: 18px 2px;
+  }
+  .menuli {
+    margin: -10px 0px -10px 0px; 
+  }
+  img{
+    margin:10px 10px 0px 80px ;
+    width: 200px;
+    height:150px;
+  }
+  .titplatos{
+    top: 200; left: 180px;
+    margin:15px 10px 0px -100px ;
+  }
+  .mensajitos{
+    margin: 80px 215px 130px 130px;
+  }
+  fieldset{
+    left:200px;
+    top:20px;
+    width:350px;
+  }
+  .caja1{
+    margin:10px 50px 10px;
+  }
+  .caja3{
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  li a {
+    padding: 8px 63px;
+  }
+  .menuli {
+    margin: 0px 0px 0px 0px; 
+  }
+   img{
+    margin:0px 0px 20px 210px ;
+    width: 200px;
+    height:150px;
+  }
+  .titplatos{
+    top: 200; left: 180px;
+    margin:5px 0px 0px 30px ;
+  }
+  .mensajitos{
+    margin: 80px 215px 130px 100px;
+  }
+  fieldset{
+    left:150px;
+    top:20px;
+    width:350px;
+  }
+}
+
+@media only screen and (max-width: 668px) {
+  li a {
+    padding: 5px 45px;
+  }
+  .menuli {
+    margin: 0px 0px 0px 0px;
+  }
+  img{
+    margin:0px 0px 20px 150px ;
+    width: 200px;
+    height:150px;
+  }
+  .titplatos{
+    top: 200; left: 180px;
+    margin:5px 0px 0px -30px ;
+  }
+  .mensajitos{
+    margin: 80px 215px 130px 80px;
+  }
+  fieldset{
+    left:90px;
+    top:20px;
+    width:350px;
+  }
+  .caja1{
+    margin:10px 120px 10px; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  li a {
+    padding: 6px 20px;
+  }
+  .menuli {
+    margin: 0px 0px 0px 0px;
+    font-size:13px;
+  }
+  img{
+    margin:0px 0px 20px 100px ;
+    width: 150px;
+    height:100px;
+  }
+  .titplatos{
+    top: 100; left: 180px;
+    margin:5px 10px 0px -81px ;
+  }
+  .layer:after {
+    font: 30px/0.65 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+    content: 'Cocina Basica';
+  }
+  .mensajitos{
+    margin: 80px 215px 130px 70px;
+  }
+  fieldset{
+    left:50px;
+    top:20px;
+    width:350px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  li a {
+    padding: 6px 20px;
+  }
+  .menuli {
+    margin: 0px 0px 0px 0px;
+    font-size:13px;
+  }
+  img{
+    margin:0px 0px 20px 90px ;
+    width: 150px;
+    height:100px;
+  }
+  .titplatos{
+    top: 100; left: 180px;
+    margin:5px 200px 0px -91px ;
+  }
+  .layer:after {
+    font: 20px/0.65 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+    content: 'Cocina Basica';
+  }
+  .mensajitos{
+    margin: 80px 215px 130px 40px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  fieldset{
+    left:15px;
+    top:20px;
+    width:300px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  li a {
+    padding: 6px 20px;
+  }
+  .menuli {
+    margin: 0px 0px 0px 0px;
+    font-size:13px;
+  }
+  img{
+    margin:0px 0px 20px 40px ;
+    width: 150px;
+    height:100px;
+}
+  .titplatos{
+    top: 100; left: 180px;
+    margin:5px 200px 0px -141px ;
+}
+  .layer:after {
+    font: 10px/0.65 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+    content: 'Cocina Basica';
+}
+  .mensajitos{
+    margin: 80px 215px 130px 30px;
+}
+  h2{
+    font-size: 20px;
+}
+  fieldset{
+    left:10px;
+    top:20px;
+    width:250px;
+  }
+.caja1{
+  margin:10px 80px 10px;
+  }
+}
